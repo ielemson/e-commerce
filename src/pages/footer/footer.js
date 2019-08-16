@@ -98,12 +98,12 @@ const Footer = () => {
     <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank" rel="noopener noreferrer">Colorlib</a>
                                 </div>
                                 <div className="footer_social ml-lg-auto">
-                                    <ul>
+                                    {/* <ul>
                                         <li><a href="/"><i className="fa fa-pinterest" aria-hidden="true"></i></a></li>
                                         <li><a href="/"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="/"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                                         <li><a href="/"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                         </div>

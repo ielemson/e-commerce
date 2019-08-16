@@ -1,86 +1,48 @@
 import React from 'react';
+import Navbar from './../navbar/navbar';
+import Slider from './../slider/slider';
+import Product from './../../components/product/product';
+import Footer from './../footer/footer';
 
 const HomePage = () => {
     return (
         <div className="super_container">
-            <div className="products">
-                <div className="container">
-                    <div className="row">
-                        <div className="col">
-                            <div className="product_grid">
-
-                                <div className="product">
-                                    <div className="product_image"><img src="images/product_1.jpg" alt="" /></div>
-                                    <div className="product_extra product_new"><a href="categories.html">New</a></div>
-                                    <div className="product_content">
-                                        <div className="product_title"><a href="product.html">Smart Phone</a></div>
-                                        <div className="product_price">$670</div>
+            <Navbar />
+            <Slider />
+            <Product />
+            <Footer />
+            {/* <div className="avds">
+                <div className="avds_container d-flex flex-lg-row flex-column align-items-start justify-content-between">
+                    <div className="avds_small">
+                        <div className="avds_background" style={{ backgroundImage: "url(images/avds_small.jpg)" }}></div>
+                        <div className="avds_small_inner">
+                            <div className="avds_discount_container">
+                                <img src="images/discount.png" alt="" />
+                                <div>
+                                    <div className="avds_discount">
+                                        <div>20<span>%</span></div>
+                                        <div>Discount</div>
                                     </div>
                                 </div>
-
-                                <div className="product">
-                                    <div className="product_image"><img src="images/product_2.jpg" alt="" /></div>
-                                    <div className="product_extra product_sale"><a href="categories.html">Sale</a></div>
-                                    <div className="product_content">
-                                        <div className="product_title"><a href="product.html">Smart Phone</a></div>
-                                        <div className="product_price">$670</div>
-                                    </div>
-                                </div>
-
-                                <div className="product">
-                                    <div className="product_image"><img src="images/product_3.jpg" alt="" /></div>
-                                    <div className="product_content">
-                                        <div className="product_title"><a href="product.html">Smart Phone</a></div>
-                                        <div className="product_price">$670</div>
-                                    </div>
-                                </div>
-
-                                <div className="product">
-                                    <div className="product_image"><img src="images/product_4.jpg" alt="" /></div>
-                                    <div className="product_content">
-                                        <div className="product_title"><a href="product.html">Smart Phone</a></div>
-                                        <div className="product_price">$670</div>
-                                    </div>
-                                </div>
-
-                                <div className="product">
-                                    <div className="product_image"><img src="images/product_5.jpg" alt="" /></div>
-                                    <div className="product_content">
-                                        <div className="product_title"><a href="product.html">Smart Phone</a></div>
-                                        <div className="product_price">$670</div>
-                                    </div>
-                                </div>
-
-                                <div className="product">
-                                    <div className="product_image"><img src="images/product_6.jpg" alt="" /></div>
-                                    <div className="product_extra product_hot"><a href="categories.html">Hot</a></div>
-                                    <div className="product_content">
-                                        <div className="product_title"><a href="product.html">Smart Phone</a></div>
-                                        <div className="product_price">$670</div>
-                                    </div>
-                                </div>
-
-                                <div className="product">
-                                    <div className="product_image"><img src="images/product_7.jpg" alt="" /></div>
-                                    <div className="product_content">
-                                        <div className="product_title"><a href="product.html">Smart Phone</a></div>
-                                        <div className="product_price">$670</div>
-                                    </div>
-                                </div>
-
-                                <div className="product">
-                                    <div className="product_image"><img src="images/product_8.jpg" alt="" /></div>
-                                    <div className="product_extra product_sale"><a href="categories.html">Hot</a></div>
-                                    <div className="product_content">
-                                        <div className="product_title"><a href="product.html">Smart Phone</a></div>
-                                        <div className="product_price">$670</div>
-                                    </div>
-                                </div>
+                            </div>
+                            <div className="avds_small_content">
+                                <div className="avds_title">Smart Phones</div>
+                                <div className="avds_link"><a href="categories.html">See More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="avds_large">
+                        <div className="avds_background" style={{ backgroundImage: "url(images/avds_large.jpg)" }}></div>
+                        <div className="avds_large_container">
+                            <div className="avds_large_content">
+                                <div className="avds_title">Professional Cameras</div>
+                                <div className="avds_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sed viver ra velit venenatis fermentum luctus.</div>
+                                <div className="avds_link avds_link_large"><a href="categories.html">See More</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
