@@ -49,7 +49,7 @@ class Product extends Component {
                     title: 'Pets',
                     imageUrl: 'https://placeimg.com/640/480/animals',
                     size: 'large',
-                    id: 5,
+                    id: 6,
                     price: 5,
                     linkUrl: 'shop/kids'
                 },
@@ -57,7 +57,7 @@ class Product extends Component {
                     title: 'Tech',
                     imageUrl: 'https://placeimg.com/640/480/tech',
                     size: 'large',
-                    id: 5,
+                    id: 7,
                     price: 50,
                     linkUrl: 'shop/kids'
                 },
@@ -65,7 +65,7 @@ class Product extends Component {
                     title: 'Design',
                     imageUrl: 'https://placeimg.com/640/480/architecturegit',
                     size: 'large',
-                    id: 5,
+                    id: 8,
                     price: 50,
                     linkUrl: 'shop/kids'
                 }
