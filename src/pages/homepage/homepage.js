@@ -1,6 +1,6 @@
 import React from 'react';
 // import Navbar from './../navbar/navbar';
-// import Slider from './../slider/slider';
+import Slider from './../slider/slider';
 import Product from './../../components/product/product';
 import Footer from './../footer/footer';
 import { Helmet } from 'react-helmet';
@@ -11,7 +11,7 @@ const HomePage = () => {
                 <title>Home</title>
                 <meta name="description" content="R-Shopping" />
             </Helmet>
-            {/* <Slider /> */}
+            <Slider />
             <Product />
             <Footer />
             {/* <div className="avds">

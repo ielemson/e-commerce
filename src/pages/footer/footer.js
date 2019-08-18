@@ -5,21 +5,21 @@ const Footer = () => {
     return (
         <div>
             {/* <div className="avds_xl">
-                <div className="container">
-                    <div className="row">
-                        <div className="col">
-                            <div className="avds_xl_container clearfix">
-                                <div className="avds_xl_background" style={{ backgroundImage: "url(images/avds_xl.jpg)" }}></div>
-                                <div className="avds_xl_content">
-                                    <div className="avds_title">Amazing Devices</div>
-                                    <div className="avds_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus.</div>
-                                    <div className="avds_link avds_xl_link"><a href="categories.html">See More</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
+<div className="container">
+<div className="row">
+<div className="col">
+<div className="avds_xl_container clearfix">
+<div className="avds_xl_background" style={{ backgroundImage: "url(images/avds_xl.jpg)" }}></div>
+<div className="avds_xl_content">
+<div className="avds_title">Amazing Devices</div>
+<div className="avds_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus.</div>
+<div className="avds_link avds_xl_link"><a href="categories.html">See More</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> */}
 
             <div className="icon_boxes">
                 <div className="container">
@@ -92,18 +92,18 @@ const Footer = () => {
                             <div className="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
                                 <div className="footer_logo"><a href="/">Sublime.</a></div>
                                 <div className="copyright ml-auto mr-auto">
-                                    Copyright &copy;{document.write(new Date().getFullYear())}
-
+                                    Copyright &copy;
+                                    
                                     All rights reserved | This template is made with
-    <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank" rel="noopener noreferrer">Colorlib</a>
+<i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank" rel="noopener noreferrer">Colorlib</a>
                                 </div>
                                 <div className="footer_social ml-lg-auto">
                                     {/* <ul>
-                                        <li><a href="/"><i className="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                                        <li><a href="/"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="/"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="/"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    </ul> */}
+<li><a href="/"><i className="fa fa-pinterest" aria-hidden="true"></i></a></li>
+<li><a href="/"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
+<li><a href="/"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
+<li><a href="/"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+</ul> */}
                                 </div>
                             </div>
                         </div>

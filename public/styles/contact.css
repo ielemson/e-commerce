@@ -9,7 +9,7 @@
 2. Body and some general stuff
 3. Header
 4. Menu
-5. home_contact
+5. Home
 6. Contact
 7. Footer
 
@@ -103,7 +103,14 @@ p a:hover::after
 {
 	opacity: 0.2;
 }
-
+::selection
+{
+	
+}
+p::selection
+{
+	
+}
 h1{font-size: 48px;}
 h2{font-size: 36px;}
 h3{font-size: 24px;}
@@ -116,7 +123,15 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-
+h1::selection, 
+h2::selection, 
+h3::selection, 
+h4::selection, 
+h5::selection, 
+h6::selection
+{
+	
+}
 .form-control
 {
 	color: #db5246;
@@ -424,7 +439,10 @@ section
 {
 	color: #1b1b1b;
 }
+.header_extra
+{
 
+}
 .shopping_cart
 {
 	display: inline-block;
@@ -651,7 +669,10 @@ section
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+.page_menu_nav
+{
 
+}
 .page_menu_search_input
 {
 	width: 100%;
@@ -665,7 +686,7 @@ section
 {
 	display: block;
 	position: relative;
-	/* vertical-align: middle; */
+	vertical-align: middle;
 }
 .page_menu_nav > li
 {
@@ -779,25 +800,25 @@ section
 }
 
 /*********************************
-5. home_contact
+5. Home
 *********************************/
 
 .home_contact
 {
 	width: 100%;
-	height: 362px;
+	height: 60vh;
 	background: #FFFFFF;
 	z-index: 2;
 	padding-top: 130px;
 	padding-left: 60px;
 	padding-right: 60px;
 }
-.home_contact_container
+.home_container
 {
 	width: 100%;
 	height: 100%;
 }
-.home_contact_background
+.home_background
 {
 	position: absolute;
 	top: 0;
@@ -808,7 +829,7 @@ section
 	background-size: cover;
 	background-position: center center;
 }
-.home_contact_content_container
+.home_content_container
 {
 	position: absolute;
 	top: 53%;
@@ -820,7 +841,7 @@ section
 	transform: translateY(-50%);
 	width: 100%;
 }
-.home_contact_content
+.home_content
 {
 	width: 580px;
 }

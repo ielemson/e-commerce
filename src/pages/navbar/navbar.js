@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
 
@@ -10,7 +10,7 @@ const Navbar = () => {
                         <div className="row">
                             <div className="col">
                                 <div className="header_content d-flex flex-row align-items-center justify-content-start">
-                                    <div className="logo"><a href="/">Sublime.</a></div>
+                                    <div className="logo"><a href="/">R-Shopper</a></div>
                                     <nav className="main_nav">
                                         <ul>
                                             <li className="active">
@@ -28,15 +28,16 @@ const Navbar = () => {
                                                 </ul>
                                             </li>
                                             <li><a href="/">Accessories</a></li>
-                                            <li><a href="/">Offers</a></li>
-                                            <li><a href="/contact">Contact</a></li>
+                                            <li><a href="/">Login</a></li>
+                                            <li><Link to="/contact">Contact Us</Link></li>
+                                            <li><Link to="/">Cart(0)</Link></li>
                                         </ul>
                                     </nav>
-                                    <div className="header_extra ml-auto">
+                                    {/* <div className="header_extra ml-auto">
                                         <div className="shopping_cart">
                                             <a href="cart.html">
 
-                                                <div>Cart <span>(0)</span></div>
+                                               
                                             </a>
                                         </div>
                                         <div className="search">
@@ -45,7 +46,7 @@ const Navbar = () => {
                                             </div>
                                         </div>
                                         <div className="hamburger"><i className="fa fa-bars" aria-hidden="true"></i></div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

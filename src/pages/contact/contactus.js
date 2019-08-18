@@ -1,8 +1,9 @@
 import React from 'react';
 // import Navbar from './../navbar/navbar';
-import Slider from './../slider/slider';
+// import Slider from './../slider/slider';
 import Footer from './../footer/footer';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 const ContactUs = () => {
     return (
 
@@ -11,12 +12,35 @@ const ContactUs = () => {
                 <title>Contact Us</title>
                 <meta name="description" content="Contact Us" />
             </Helmet>
+
+
+
+            <div className="home_contact">
+                <div className="home_container">
+                    <div className="home_background" style={{ backgroundImage: "url(images/contact.jpg)" }}></div>
+                    <div className="home_content_container">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col">
+                                    <div className="home_content">
+                                        <div className="breadcrumbs">
+                                            <ul>
+                                                <li><Link to='/'>Home</Link></li>
+                                                <li>Contact</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <div className="contact">
                 <div className="container">
-
-
                     <div className="row">
-
                         <div className="col-lg-8 contact_col">
                             <div className="get_in_touch">
                                 <div className="section_title">Get in Touch</div>
@@ -25,7 +49,6 @@ const ContactUs = () => {
                                     <form action="#" id="contact_form" className="contact_form">
                                         <div className="row">
                                             <div className="col-xl-6">
-
                                                 <label htmlFor="contact_name">First Name*</label>
                                                 <input type="text" id="contact_name" className="contact_input" required="required" />
                                             </div>

@@ -89,8 +89,8 @@ class Product extends Component {
                         <div className="row">
                             <div className="col">
                                 <div className="product_grid">
-                                    {this.state.products.map(({ title, id, size, imageUrl, linkUrl, price }) => (
-                                        <ProductItem key={id} title={title} img={imageUrl} price={price} size={size} />
+                                    {this.state.products.map(({ id, ...otherSEctionProps }) => (
+                                        <ProductItem key={id} {...otherSEctionProps} />
                                     ))}
 
 
