@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SHOP_DATA from './shop_data';
+import Slider from './../slider/slider'
 class Shoppage extends Component {
     constructor(props) {
         super(props);
@@ -11,7 +12,7 @@ class Shoppage extends Component {
     render() {
         return (
             <div>
-                {console.log('shop page')}
+                <Slider />
             </div>
         );
     }

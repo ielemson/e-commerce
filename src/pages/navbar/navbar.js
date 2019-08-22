@@ -10,7 +10,7 @@ const Navbar = () => {
                         <div className="row">
                             <div className="col">
                                 <div className="header_content d-flex flex-row align-items-center justify-content-start">
-                                    <div className="logo"><a href="/">R-Shopper</a></div>
+                                    <div className="logo"><a href="/">R-Shopper</a><img src='https://imgur.com/zNSnFmn.png' alt='logo' className='logoImg' /></div>
                                     <nav className="main_nav">
                                         <ul>
                                             <li className="active">
