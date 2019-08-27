@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import SHOP_DATA from './shop_data';
-import Slider from './../slider/slider'
+import Slider from './../slider/slider';
+import Footer from './../footer/footer'
+import CollectionPreview from './../../components/collection-preview/collection-preview'
 class Shoppage extends Component {
     constructor(props) {
         super(props);
@@ -10,9 +12,16 @@ class Shoppage extends Component {
         }
     }
     render() {
+        const { collections } = this.state;
         return (
-            <div>
+            <div className="super_container">
                 <Slider />
+
+                {collections.map(({ id, ...othercollectionprops }) => (
+                    <CollectionPreview key={id} {...othercollectionprops} />
+                ))}
+
+                <Footer />
             </div>
         );
     }
