@@ -13,7 +13,8 @@ const PreviewCollection = ({ title, items, imageUrl, price }) => {
                                 <div>
                                     {items.filter((item, idx) => idx < 4).map((item) => (
                                         <div className="product" key={item.id}>
-                                            <div className="product_image"><img src={item.imageUrl} alt={item.title} /></div>
+                                            <div className="product_img"><img src={item.imageUrl} alt={item.title} /></div>
+                                            <div className="bg-3">Add to cart</div>
                                             <div className="product_content">
                                                 <div className="product_title"><a href="product.html">{item.name}</a></div>
                                                 <div className="product_price">${item.price}</div>

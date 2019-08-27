@@ -21,3 +21,35 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+
+<div>
+    <div className="products">
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <div className="product_grid">
+                        <div>
+                            {items.filter((item, idx) => idx < 2).map((item)=> (
+                                <div className="product">
+                                    <div className="product_image"><img src={item.imageUrl} alt={title} /></div>
+                                    <div className="product_content">
+                                        <div className="product_title"><a href="product.html">{title.toUpperCase()}</a>
+                                        </div>
+                                        <div className="product_price">${price}</div>
+
+                                    </div>
+                                </div>
+                                ))}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

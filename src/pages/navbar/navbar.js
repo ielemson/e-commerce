@@ -18,13 +18,10 @@ const Navbar = () => {
 
                                             </li>
                                             <li className="hassubs">
-                                                <a href="categories.html">Categories</a>
+                                                <a href="/">Categories</a>
                                                 <ul>
-                                                    <li><a href="categories.html">Category</a></li>
-                                                    <li><a href="categories.html">Category</a></li>
-                                                    <li><a href="categories.html">Category</a></li>
-                                                    <li><a href="categories.html">Category</a></li>
-                                                    <li><a href="categories.html">Category</a></li>
+                                                    <li><a href="/">Category</a></li>
+
                                                 </ul>
                                             </li>
                                             <li><a href="/">Accessories</a></li>
