@@ -4,6 +4,7 @@ import Home from './pages/homepage/homepage';
 import ContactUs from './pages/contact/contactus';
 import Navbar from './pages/navbar/navbar';
 import Shop_Page from './pages/shop/shoppage';
+import AuthPage from './pages/auth/authpage';
 // import Slider from './pages/slider/slider';
 // import { BrowserRouter as Router, Route } from 'react-router-dom';
 function App() {
@@ -13,9 +14,11 @@ function App() {
       <Navbar />
       {/* <Slider /> */}
       <Switch>
+
         <Route exact path='/' component={Home} />
         <Route path='/contact' component={ContactUs} />
         <Route path='/shop' component={Shop_Page} />
+        <Route path='/login' component={AuthPage} />
       </Switch>
     </div>
   );

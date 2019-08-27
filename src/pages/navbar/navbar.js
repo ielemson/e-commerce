@@ -24,26 +24,26 @@ const Navbar = () => {
 
                                                 </ul>
                                             </li>
-                                            <li><a href="/">Shop</a></li>
-                                            <li><a href="/">Login</a></li>
+                                            <li><a href="/shop">Shop</a></li>
+                                            <li><a href="/login">Login</a></li>
                                             <li><Link to="/contact">Contact Us</Link></li>
                                             <li><Link to="/">Cart(0)</Link></li>
                                         </ul>
                                     </nav>
                                     {/* <div className="header_extra ml-auto">
-                                        <div className="shopping_cart">
-                                            <a href="cart.html">
+<div className="shopping_cart">
+<a href="cart.html">
 
-                                               
-                                            </a>
-                                        </div>
-                                        <div className="search">
-                                            <div className="search_icon">
 
-                                            </div>
-                                        </div>
-                                        <div className="hamburger"><i className="fa fa-bars" aria-hidden="true"></i></div>
-                                    </div> */}
+</a>
+</div>
+<div className="search">
+<div className="search_icon">
+
+</div>
+</div>
+<div className="hamburger"><i className="fa fa-bars" aria-hidden="true"></i></div>
+</div> */}
                                 </div>
                             </div>
                         </div>
