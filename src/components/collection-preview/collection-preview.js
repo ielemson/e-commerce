@@ -4,7 +4,9 @@ const PreviewCollection = ({ title, items, imageUrl, price }) => {
     return (
         <div>
             <div className="products">
+
                 <div className="container">
+                    <h1>{title}</h1>
                     <div className="row">
                         <div className="col">
                             <div className="product_grid">
