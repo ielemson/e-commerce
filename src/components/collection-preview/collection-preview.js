@@ -1,35 +1,23 @@
 import React from 'react';
-
-const PreviewCollection = ({ title, items, imageUrl, price }) => {
+import CollectionItem from './../collection-item/collection-item'
+const PreviewCollection = ({ title, items }) => {
     return (
-        <div>
-            <div className="products">
+        <div className="products">
+            <div className="container">
+                <h1>{title}</h1>
+                <div className="row">
+                    <div className="col">
+                        <div className="product_grid">
 
-                <div className="container">
-                    <h1>{title}</h1>
-                    <div className="row">
-                        <div className="col">
-                            <div className="product_grid">
-                                <div>
-                                    {items.filter((item, idx) => idx < 4).map((item) => (
-                                        <div className="product" key={item.id}>
-                                            <div className="product_img"><img src={item.imageUrl} alt={item.title} /></div>
-                                            <div className="bg-3">Add to cart</div>
-                                            <div className="product_content">
-                                                <div className="product_title"><a href="product.html">{item.name}</a></div>
-                                                <div className="product_price">${item.price}</div>
-
-                                            </div>
-                                        </div>
-                                    ))}
-
-                                </div>
-                            </div>
+                            {items.filter((item, idx) => idx < 4).map(({ id, ...otherItemProps }) => (
+                                <CollectionItem key={id} {...otherItemProps} />
+                            ))}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     );
 };
 
