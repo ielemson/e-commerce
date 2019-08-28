@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './../footer/footer';
 import { Helmet } from 'react-helmet';
-
+import Signin from './../../components/auth-signin/signin'
 const Authpage = () => {
     return (
 
@@ -76,29 +76,11 @@ const Authpage = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="tab-pane fade" id="user">
-                                    <br />
-                                    <fieldset>
-                                        <div className="form-group">
-                                            <div className="right-inner-addon">
-                                                <i className="fa fa-envelope"></i>
-                                                <input className="form-control input-lg" placeholder="email" type="text" />
-                                            </div>
-                                        </div>
-                                        <div className="form-group">
-                                            <div className="right-inner-addon">
-                                                <i className="fa fa-key"></i>
-                                                <input className="form-control input-lg" placeholder="Password" type="password" />
-                                            </div>
-                                        </div>
-                                    </fieldset>
-                                    <br />
-                                    <div className=" text-center">
-                                        <button className="btn btn-info btn-info"><i className="fa fa-user"></i> LOGIN</button>
-                                        &nbsp;
-<button className="btn btn-danger btn-danger"><i className="fa fa-google"></i> Google</button>
-                                    </div>
-                                </div>
+
+                                {/* This is the imported sigin ing page*/}
+                                <Signin />
+                                {/* This is the imported sigin ing page*/}
+
                             </div>
                         </div>
                     </div>

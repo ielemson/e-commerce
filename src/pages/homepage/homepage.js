@@ -4,6 +4,7 @@ import Slider from './../slider/slider';
 import Product from './../../components/product/product';
 import Footer from './../footer/footer';
 import { Helmet } from 'react-helmet';
+
 const HomePage = () => {
     return (
         <div className="super_container">
