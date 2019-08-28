@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Forminput from './../../components/form-input/form-input'
+import Forminput from './../../components/form-input/form-input';
+import SmartButton from './../../components/custom-button/custom-button';
 class Signin extends Component {
     constructor(props) {
         super(props);
@@ -54,9 +55,10 @@ class Signin extends Component {
                     </fieldset>
                     <br />
                     <div className=" text-center">
-                        <button className="btn btn-info btn-info"><i className="fa fa-user"> </i>  Login with email</button>
+                        <SmartButton className="btn btn-info btn-info" type="submit">  <i className="fa fa-user"> </i> Login with email</SmartButton>
                         &nbsp;
-<button className="btn btn-danger btn-danger"><i className="fa fa-google"> </i>  Login with Google</button>
+                    
+    <SmartButton className="btn btn-danger btn-danger" type="submit"> <i className="fa fa-google"> </i>  Login with Google</SmartButton>
                     </div>
                 </form>
             </div>
